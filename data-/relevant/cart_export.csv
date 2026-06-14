@@ -1,0 +1,9 @@
+cart_item_id,item_name,variant,quantity,unit_price,source_api
+C01,Lakefront Daily Trainer,women 8.5 regular,1,142.00,store-cart
+C02,Lakefront Race Flat,women 8.5 regular,1,132.00,store-cart
+C03,Lakefront Daily Trainer Wide,women 8.5 wide,1,142.00,store-cart
+C04,Recovery sandals,charcoal size 8,1,54.00,store-cart
+C05,Synthetic blister socks,2-pack non-wool,1,18.50,store-cart
+C06,Merino wool toe socks,wool blend 3-pack,1,24.00,store-cart
+C07,Unscented anti-chafe balm,travel size stick,1,11.99,store-cart
+C08,Reflective clip light pair,USB rechargeable,1,19.00,store-cart

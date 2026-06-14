@@ -1,0 +1,19 @@
+{
+  "packages": [
+    {
+      "tracking_id": "FX3920",
+      "matched_cart_item_id": "C04",
+      "delivered": true
+    },
+    {
+      "tracking_id": "FX3921",
+      "matched_cart_item_id": "C07",
+      "delivered": false
+    },
+    {
+      "tracking_id": "FX3922",
+      "matched_cart_item_id": null,
+      "delivered": false
+    }
+  ]
+}

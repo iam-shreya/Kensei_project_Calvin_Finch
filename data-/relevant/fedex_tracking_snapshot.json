@@ -1,0 +1,23 @@
+{
+  "source": "fedex-api",
+  "shipments": [
+    {
+      "tracking_id": "FX3920",
+      "item_name": "Recovery sandals charcoal size 8",
+      "status": "delivered",
+      "matched_cart_item_id": "C04"
+    },
+    {
+      "tracking_id": "FX3921",
+      "item_name": "anti-chafe balm travel size",
+      "status": "label_created",
+      "matched_cart_item_id": "C07"
+    },
+    {
+      "tracking_id": "FX3922",
+      "item_name": "book order for Erik",
+      "status": "in_transit",
+      "matched_cart_item_id": null
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-api",
+  "gear": [
+    {
+      "gear_id": "G01",
+      "gear_name": "Lakefront Daily Trainer current pair",
+      "miles_logged": 421.6
+    },
+    {
+      "gear_id": "G02",
+      "gear_name": "Lakefront Race Flat current pair",
+      "miles_logged": 86.4
+    },
+    {
+      "gear_id": "G03",
+      "gear_name": "Winter traction shoes",
+      "miles_logged": 144.2
+    }
+  ]
+}

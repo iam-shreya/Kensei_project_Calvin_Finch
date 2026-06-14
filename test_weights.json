@@ -1,0 +1,8 @@
+{
+  "test_required_filename_and_columns": 10,
+  "test_keep_remove_decisions": 35,
+  "test_final_quantities": 15,
+  "test_final_total_before_fees": 20,
+  "test_removed_item_reasons": 15,
+  "test_no_purchase_claimed": 5
+}

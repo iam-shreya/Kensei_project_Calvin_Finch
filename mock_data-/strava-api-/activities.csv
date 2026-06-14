@@ -1,0 +1,4 @@
+activity_id,gear_id,distance_miles,activity_type,note
+act_1001,G01,8.2,run,daily trainer felt flat
+act_1002,G02,6.0,workout,race flat still responsive
+act_1003,G01,11.4,long_run,outsole slapping

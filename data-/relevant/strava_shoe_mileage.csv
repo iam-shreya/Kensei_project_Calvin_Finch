@@ -1,0 +1,4 @@
+gear_id,gear_name,miles_logged,replacement_rule_miles,status_note
+G01,Lakefront Daily Trainer current pair,421.6,400,daily trainer is over replacement rule
+G02,Lakefront Race Flat current pair,86.4,250,race flat is not due
+G03,Winter traction shoes,144.2,400,seasonal distractor

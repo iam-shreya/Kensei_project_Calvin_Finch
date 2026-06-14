@@ -1,0 +1,29 @@
+id: calvin_race_gear_buy_check
+persona: Calvin Finch
+l1_category: Commerce & Product
+l2_category: Visual Shopping/Comparison
+difficulty: hard
+target_failure_ratio: 0.40
+modalities:
+  - image
+  - csv
+  - json
+  - txt
+  - md
+required_apis:
+  - google-drive-api
+  - strava-api
+  - fedex-api
+distractor_apis:
+  - openweather-api
+  - eventbrite-api
+disallowed_actions:
+  - place_purchase
+  - send_message
+  - use_patient_data
+expected_output_file: calvin_race_gear_buy_check.csv
+prompt_file: prompt.txt
+rubric_file: rubric.json
+golden_file: golden_steer_flow.md
+data_dir: data
+mock_data_dir: mock_data

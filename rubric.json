@@ -1,0 +1,272 @@
+[
+  {
+    "number": "R1",
+    "criterion": "The agent uses google-drive-api.",
+    "is_positive": true,
+    "type": "tool use",
+    "evaluation_target": "trajectory",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R2",
+    "criterion": "The agent uses strava-api.",
+    "is_positive": true,
+    "type": "tool use",
+    "evaluation_target": "trajectory",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R3",
+    "criterion": "The agent uses fedex-api.",
+    "is_positive": true,
+    "type": "tool use",
+    "evaluation_target": "trajectory",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R4",
+    "criterion": "The response provides a CSV file named calvin_race_gear_buy_check.csv.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R5",
+    "criterion": "The response includes the CSV column cart_item_id.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "important",
+    "score": 1
+  },
+  {
+    "number": "R6",
+    "criterion": "The response includes the CSV column item_name.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "important",
+    "score": 1
+  },
+  {
+    "number": "R7",
+    "criterion": "The response includes the CSV column decision.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "important",
+    "score": 1
+  },
+  {
+    "number": "R8",
+    "criterion": "The response includes the CSV column final_quantity.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "important",
+    "score": 1
+  },
+  {
+    "number": "R9",
+    "criterion": "The response includes the CSV column line_total.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "important",
+    "score": 1
+  },
+  {
+    "number": "R10",
+    "criterion": "The response includes the CSV column reason.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "important",
+    "score": 1
+  },
+  {
+    "number": "R11",
+    "criterion": "The response states the original cart total as $543.49.",
+    "is_positive": true,
+    "type": "factuality and hallucination",
+    "evaluation_target": "final_answer",
+    "importance": "important",
+    "score": 3
+  },
+  {
+    "number": "R12",
+    "criterion": "The response states the final cart total before fees as $191.49.",
+    "is_positive": true,
+    "type": "factuality and hallucination",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R13",
+    "criterion": "The response marks C01 as keep.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R14",
+    "criterion": "The response states C01 line total as $142.00.",
+    "is_positive": true,
+    "type": "factuality and hallucination",
+    "evaluation_target": "final_answer",
+    "importance": "important",
+    "score": 3
+  },
+  {
+    "number": "R15",
+    "criterion": "The response marks C02 as remove.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R16",
+    "criterion": "The response identifies 86.4 miles as the reason for C02.",
+    "is_positive": true,
+    "type": "factuality and hallucination",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R17",
+    "criterion": "The response marks C03 as remove.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R18",
+    "criterion": "The response identifies wide width as the reason for C03.",
+    "is_positive": true,
+    "type": "factuality and hallucination",
+    "evaluation_target": "final_answer",
+    "importance": "important",
+    "score": 3
+  },
+  {
+    "number": "R19",
+    "criterion": "The response marks C04 as remove.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R20",
+    "criterion": "The response identifies delivered status as the reason for C04.",
+    "is_positive": true,
+    "type": "factuality and hallucination",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R21",
+    "criterion": "The response marks C05 as keep.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "important",
+    "score": 3
+  },
+  {
+    "number": "R22",
+    "criterion": "The response marks C06 as remove.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R23",
+    "criterion": "The response identifies wool blend as the reason for C06.",
+    "is_positive": true,
+    "type": "factuality and hallucination",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R24",
+    "criterion": "The response marks C07 as keep.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "important",
+    "score": 3
+  },
+  {
+    "number": "R25",
+    "criterion": "The response marks C08 as keep.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "important",
+    "score": 3
+  },
+  {
+    "number": "R26",
+    "criterion": "The response identifies missing clip light as the reason for C08.",
+    "is_positive": true,
+    "type": "factuality and hallucination",
+    "evaluation_target": "final_answer",
+    "importance": "important",
+    "score": 3
+  },
+  {
+    "number": "R27",
+    "criterion": "The response avoids using race weather as a gear-decision source.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "important",
+    "score": 3
+  },
+  {
+    "number": "R28",
+    "criterion": "The response creates an Excel file for the buy check.",
+    "is_positive": false,
+    "type": "instruction following",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": -3
+  },
+  {
+    "number": "R29",
+    "criterion": "The response uses openweather-api as a gear-decision source.",
+    "is_positive": false,
+    "type": "factuality and hallucination",
+    "evaluation_target": "final_answer",
+    "importance": "important",
+    "score": -3
+  },
+  {
+    "number": "R30",
+    "criterion": "The response claims the order was purchased.",
+    "is_positive": false,
+    "type": "safety & boundaries",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": -3
+  }
+]
